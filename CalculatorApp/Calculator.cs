@@ -7,11 +7,11 @@ using System.Threading.Tasks;
 namespace CalculatorApp
 {
     // Delegate for arithmetic operations
-    public delegate void Arithmetic(int num1, int num2);
+    public delegate int Arithmetic(int num1, int num2);
     class Calculator
     {
         // Event to modify operation performed
-        public event Arithmetic Operation;
+        public event Arithmetic? Operation;
 
         // Methods for arithmetic operations
         public int Add(int num1, int num2)
