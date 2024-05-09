@@ -1,129 +1,75 @@
-using System.Text;
-
 namespace CalculatorApp
 {
     public partial class Form1 : Form
     {
+        // Variables to store numbers
+        int num1, num2;
+        // Object of Calculator class
         Calculator calculator = new Calculator();
-        StringBuilder output = new StringBuilder();
-        int num1;
-        int num2;
-        Arithmetic? operation;
+        // Delegate for arithmetic operations
+        Calculate? operation;
 
         public Form1()
         {
             InitializeComponent();
         }
 
-        private void btnZero_Click(object sender, EventArgs e)
+        private void btnCalculate_Click(object sender, EventArgs e)
         {
-            output.Append("0");
-            txtOutput.Text += "0";
-        }
+            // Get numbers
+            num1 = (int)numNum1.Value;
+            num2 = (int)numNum2.Value;
 
-        private void btnOne_Click(object sender, EventArgs e)
-        {
-            output.Append("1");
-            txtOutput.Text += "1";
-        }
+            // Unsubscribe from event
+            calculator.Operation -= operation;
 
-        private void btnTwo_Click(object sender, EventArgs e)
-        {
-            output.Append("2");
-            txtOutput.Text += "2";
-        }
-
-        private void btnThree_Click(object sender, EventArgs e)
-        {
-            output.Append("3");
-            txtOutput.Text += "3";
-        }
-
-        private void btnFour_Click(object sender, EventArgs e)
-        {
-            output.Append("4");
-            txtOutput.Text += "4";
-        }
-
-        private void btnFive_Click(object sender, EventArgs e)
-        {
-            output.Append("5");
-            txtOutput.Text += "5";
-        }
-
-        private void btnSix_Click(object sender, EventArgs e)
-        {
-            output.Append("6");
-            txtOutput.Text += "6";
-        }
-
-        private void btnSeven_Click(object sender, EventArgs e)
-        {
-            output.Append("7");
-            txtOutput.Text += "7";
-        }
-
-        private void btnEight_Click(object sender, EventArgs e)
-        {
-            output.Append("8");
-            txtOutput.Text += "8";
-        }
-
-        private void btnNine_Click(object sender, EventArgs e)
-        {
-            output.Append("9");
-            txtOutput.Text += "9";
-        }
-
-        private void btnAdd_Click(object sender, EventArgs e)
-        {
-            int.TryParse(output.ToString(), out num1);
-            output.Clear();
-            operation = calculator.Add;
-            txtOutput.Text += " + ";
-        }
-
-        private void btnSubtract_Click(object sender, EventArgs e)
-        {
-            int.TryParse(output.ToString(), out num1);
-            output.Clear();
-            operation = calculator.Subtract;
-            txtOutput.Text += " - ";
-        }
-
-        private void btnTimes_Click(object sender, EventArgs e)
-        {
-            int.TryParse(output.ToString(), out num1);
-            output.Clear();
-            operation = calculator.Multiply;
-            txtOutput.Text += " X ";
-        }
-
-        private void btnDivide_Click(object sender, EventArgs e)
-        {
-            int.TryParse(output.ToString(), out num1);
-            output.Clear();
-            operation = calculator.Divide;
-            txtOutput.Text += " ÷ ";
-        }
-
-        private void btnEquals_Click(object sender, EventArgs e)
-        {
-            if (operation != null)
+            // Perform operation
+            switch (cmbOperation.Text)
             {
-                int.TryParse(output.ToString(), out num2);
+                case "+":
+                    operation = calculator.Add;
+                    break;
+                case "-":
+                    operation = calculator.Subtract;
+                    break;
+                case "*":
+                    operation = calculator.Multiply;
+                    break;
+                case "/":
+                    operation = calculator.Divide;
+                    break;
+                default:
+                    MessageBox.Show("Please select a valid operation");
+                    return;
+            }
+
+            // Subscribe to event
+            calculator.Operation += operation;
+
+            // Perform operation and display result
+            try
+            {
                 int result = operation(num1, num2);
-                txtOutput.Text = result.ToString();
+                calculator.InvokeOperation(num1, num2);
+                lblOutput.Text = result.ToString();
+            }
+            catch (DivideByZeroException)
+            {
+                MessageBox.Show("Cannot divide by 0");
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
             }
         }
 
         private void btnClear_Click(object sender, EventArgs e)
         {
-            num1 = 0;
-            num2 = 0;
-            output.Clear();
-            operation = null;
-            txtOutput.Text = "";
+            // Clear numbers and output
+            numNum1.Value = 0;
+            numNum2.Value = 0;
+            lblOutput.Text = "";
+            cmbOperation.Text = "";
         }
     }
 }

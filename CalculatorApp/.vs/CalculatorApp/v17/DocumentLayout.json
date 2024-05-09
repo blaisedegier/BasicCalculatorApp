@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\lab_services_student\\OneDrive - ADvTECH Ltd\\Documents\\Modules\\PROG6221\\Files\\PROG6221_ICE_4\\CalculatorApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FD117DD5-A050-4BC1-A94B-27441EB4E42B}|CalculatorApp.csproj|C:\\Users\\lab_services_student\\OneDrive - ADvTECH Ltd\\Documents\\Modules\\PROG6221\\Files\\PROG6221_ICE_4\\CalculatorApp\\calculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FD117DD5-A050-4BC1-A94B-27441EB4E42B}|CalculatorApp.csproj|solutionrelative:calculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1F296E52-7076-4346-A460-2DD1FF001DD6}|CalculatorApp.csproj|c:\\users\\lab_services_student\\onedrive - advtech ltd\\documents\\modules\\prog6221\\files\\prog6221_ice_4\\calculatorapp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F296E52-7076-4346-A460-2DD1FF001DD6}|CalculatorApp.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FD117DD5-A050-4BC1-A94B-27441EB4E42B}|CalculatorApp.csproj|c:\\users\\lab_services_student\\onedrive - advtech ltd\\documents\\modules\\prog6221\\files\\prog6221_ice_4\\calculatorapp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FD117DD5-A050-4BC1-A94B-27441EB4E42B}|CalculatorApp.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1F296E52-7076-4346-A460-2DD1FF001DD6}|CalculatorApp.csproj|C:\\Users\\lab_services_student\\OneDrive - ADvTECH Ltd\\Documents\\Modules\\PROG6221\\Files\\PROG6221_ICE_4\\CalculatorApp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1F296E52-7076-4346-A460-2DD1FF001DD6}|CalculatorApp.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FD117DD5-A050-4BC1-A94B-27441EB4E42B}|CalculatorApp.csproj|C:\\Users\\lab_services_student\\OneDrive - ADvTECH Ltd\\Documents\\Modules\\PROG6221\\Files\\PROG6221_ICE_4\\CalculatorApp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{FD117DD5-A050-4BC1-A94B-27441EB4E42B}|CalculatorApp.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{1F296E52-7076-4346-A460-2DD1FF001DD6}|CalculatorApp.csproj|C:\\Users\\lab_services_student\\OneDrive - ADvTECH Ltd\\Documents\\Modules\\PROG6221\\Files\\PROG6221_ICE_4\\CalculatorApp\\calculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F296E52-7076-4346-A460-2DD1FF001DD6}|CalculatorApp.csproj|solutionrelative:calculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,8 +22,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 4,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\OneDrive - ADvTECH Ltd\\Documents\\Modules\\PROG6221\\Files\\PROG6221_ICE_4\\CalculatorApp\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\OneDrive - ADvTECH Ltd\\Documents\\Modules\\PROG6221\\Files\\PROG6221_ICE_4\\CalculatorApp\\Form1.cs [Design]",
+              "RelativeToolTip": "Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-09T14:15:10.768Z",
+              "IsPinned": true,
+              "EditorCaption": " [Design]"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
@@ -34,47 +47,32 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Bookmark",
               "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\OneDrive - ADvTECH Ltd\\Documents\\Modules\\PROG6221\\Files\\PROG6221_ICE_4\\CalculatorApp\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
               "ToolTip": "C:\\Users\\lab_services_student\\OneDrive - ADvTECH Ltd\\Documents\\Modules\\PROG6221\\Files\\PROG6221_ICE_4\\CalculatorApp\\Form1.cs",
               "RelativeToolTip": "Form1.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAOAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEcAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-26T12:31:52.534Z",
+              "WhenOpened": "2024-05-09T14:22:47.648Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\lab_services_student\\OneDrive - ADvTECH Ltd\\Documents\\Modules\\PROG6221\\Files\\PROG6221_ICE_4\\CalculatorApp\\Form1.cs",
-              "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\Users\\lab_services_student\\OneDrive - ADvTECH Ltd\\Documents\\Modules\\PROG6221\\Files\\PROG6221_ICE_4\\CalculatorApp\\Form1.cs [Design]",
-              "RelativeToolTip": "Form1.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-26T12:16:14.983Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "Calculator.cs",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\OneDrive - ADvTECH Ltd\\Documents\\Modules\\PROG6221\\Files\\PROG6221_ICE_4\\CalculatorApp\\Calculator.cs",
               "RelativeDocumentMoniker": "Calculator.cs",
               "ToolTip": "C:\\Users\\lab_services_student\\OneDrive - ADvTECH Ltd\\Documents\\Modules\\PROG6221\\Files\\PROG6221_ICE_4\\CalculatorApp\\Calculator.cs",
               "RelativeToolTip": "Calculator.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAfAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-26T12:06:20.396Z",
+              "WhenOpened": "2024-05-09T14:22:54.93Z",
               "EditorCaption": ""
             }
           ]

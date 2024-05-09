@@ -9,6 +9,7 @@ C:\Users\lab_services_student\OneDrive - ADvTECH Ltd\Documents\Modules\PROG6221\
 C:\Users\lab_services_student\OneDrive - ADvTECH Ltd\Documents\Modules\PROG6221\Files\PROG6221_ICE_4\CalculatorApp\obj\Debug\net8.0-windows\CalculatorApp.AssemblyInfoInputs.cache
 C:\Users\lab_services_student\OneDrive - ADvTECH Ltd\Documents\Modules\PROG6221\Files\PROG6221_ICE_4\CalculatorApp\obj\Debug\net8.0-windows\CalculatorApp.AssemblyInfo.cs
 C:\Users\lab_services_student\OneDrive - ADvTECH Ltd\Documents\Modules\PROG6221\Files\PROG6221_ICE_4\CalculatorApp\obj\Debug\net8.0-windows\CalculatorApp.csproj.CoreCompileInputs.cache
+C:\Users\lab_services_student\OneDrive - ADvTECH Ltd\Documents\Modules\PROG6221\Files\PROG6221_ICE_4\CalculatorApp\obj\Debug\net8.0-windows\CalculatorApp.sourcelink.json
 C:\Users\lab_services_student\OneDrive - ADvTECH Ltd\Documents\Modules\PROG6221\Files\PROG6221_ICE_4\CalculatorApp\obj\Debug\net8.0-windows\CalculatorApp.dll
 C:\Users\lab_services_student\OneDrive - ADvTECH Ltd\Documents\Modules\PROG6221\Files\PROG6221_ICE_4\CalculatorApp\obj\Debug\net8.0-windows\refint\CalculatorApp.dll
 C:\Users\lab_services_student\OneDrive - ADvTECH Ltd\Documents\Modules\PROG6221\Files\PROG6221_ICE_4\CalculatorApp\obj\Debug\net8.0-windows\CalculatorApp.pdb
